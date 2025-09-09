@@ -1,32 +1,37 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link
+      href="https://fonts.googleapis.com/css?family=Orbitron"
+      rel="stylesheet"
+      type="text/css"
+    />
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-  
     <div class="container">
       <div class="home">
         <h3 class="lable">HOME</h3>
         <div class="homeScore">0</div>
-         <div class="buttons">
-        <button class="home1" onclick="homeScoreFunction1()">+1</button>
-        <button class="home2" onclick="homeScoreFunction()">+2</button>
-        <button class="home3" onclick="homeScoreFunction()">+3</button>
-      </div>
+        <div class="buttons">
+          <button class="home1" onclick="homeScoreFunction1()">+1</button>
+          <button class="home2" onclick="homeScoreFunction2()">+2</button>
+          <button class="home3" onclick="homeScoreFunction3()">+3</button>
+        </div>
       </div>
       <div class="guest">
-        <h3 class="lable">AWAY</h3>
+        <h3 class="lable">GUEST</h3>
         <div class="guestScore">0</div>
         <div class="buttons">
-        <button class="guest1" onclick="guestScoreFunction()">+1</button>
-        <button class="guest2" onclick="guestScoreFunction()">+2</button>
-        <button class="guest3" onclick="guestScoreFunction()">+3</button>
+          <button class="guest1" onclick="guestScoreFunction1()">+1</button>
+          <button class="guest2" onclick="guestScoreFunction2()">+2</button>
+          <button class="guest3" onclick="guestScoreFunction3()">+3</button>
+        </div>
       </div>
+      <div class="newGame">
+        <button class="gameBtn" onclick="newGameFunction()">NEW GAME</button>
       </div>
     </div>
-  
 
     <script src="script.js"></script>
   </body>
